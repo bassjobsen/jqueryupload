@@ -1,5 +1,5 @@
 {
-    "name": "upload",
+    "name": "jqueryupload",
     "title": "jQuery.upload",
     "description": "A simple ajax file upload plugin",
     "keywords": [
@@ -7,7 +7,7 @@
         "file upload",
         "ajax"       
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": {
         "name": "Lagos",
         "url": "http://lagoscript.org/"
@@ -15,7 +15,7 @@
     "maintainers": [
         {
             "name": "Bass Jobsen",
-            "email": "http://www.w3masters.nl/",
+            "email": "Bass@w3masters.nl",
             "url": "http://www.w3masters.nl/"
         }
     ],
