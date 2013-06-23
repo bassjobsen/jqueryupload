@@ -4,10 +4,10 @@
     "description": "A simple ajax file upload plugin",
     "keywords": [
         "upload",
-        "file upload",
+        "fileupload",
         "ajax"       
     ],
-    "version": "1.0.5",
+    "version": "1.0.6",
     "author": {
         "name": "Lagos",
         "url": "http://lagoscript.org/"
