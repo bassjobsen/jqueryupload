@@ -1,0 +1,35 @@
+{
+    "name": "upload",
+    "title": "jQuery.upload",
+    "description": "A simple ajax file upload plugin",
+    "keywords": [
+        "upload",
+        "file upload",
+        "ajax"       
+    ],
+    "version": "1.0.3",
+    "author": {
+        "name": "Lagos",
+        "url": "http://lagoscript.org/"
+    },
+    "maintainers": [
+        {
+            "name": "Bass Jobsen",
+            "email": "http://www.w3masters.nl/",
+            "url": "http://www.w3masters.nl/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "Dual licensed under the MIT or GPL Version 2 licenses",
+            "url": "http://jquery.org/license"
+        }
+    ],
+    "bugs": "https://github.com/bassjobsen/jqueryupload/issues",
+    "homepage": "https://github.com/bassjobsen/jqueryupload/",
+    "docs": "https://github.com/bassjobsen/jqueryupload/",
+    "download": "https://github.com/bassjobsen/jqueryupload/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.4.2"
+    }
+}
