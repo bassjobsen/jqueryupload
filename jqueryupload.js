@@ -15,7 +15,7 @@
 
   var uuid = 0;
 
-  $.fn.uploadimage = function(url, data, callback, type) {
+  $.fn.upload = function(url, data, callback, type) {
     var self = this, inputs, checkbox, checked,
     iframeName = 'jquery_upload' + ++uuid,
     iframe = $('<iframe name="' + iframeName + '" style="position:absolute;top:-9999px" />').appendTo('body'),
@@ -68,7 +68,11 @@
 
   function createInputs(data) {
     return $.map(param(data), function(param) {
-      return '<input type="hidden" name="' + param.name + '" value="' + param.value + '"/>';
+    var e = $(document.createElement('input'));
+	e.attr('type', 'hidden');
+	e.attr('name', param.name);
+	e.attr('value', param.value);
+	return e;
     }).join('');
   }
 
