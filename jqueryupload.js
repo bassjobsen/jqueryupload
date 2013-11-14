@@ -116,13 +116,12 @@
       return contents.XMLDocument || contents;
     }
     data = $(contents).find('body').html();
-
     switch (type) {
     case 'xml':
       data = parseXml(data);
       break;
     case 'json':
-      data = JSON.parse(data);
+      data = $.parseJSON(data);
       break;
     }
     return data;
