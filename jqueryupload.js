@@ -73,7 +73,7 @@
 	e.attr('name', param.name);
 	e.attr('value', param.value);
 	return e;
-    }).join('');
+    });
   }
 
   function param(data) {
@@ -115,7 +115,7 @@
     if ($.isXMLDoc(contents) || contents.XMLDocument) {
       return contents.XMLDocument || contents;
     }
-    data = $(contents).find('body').html();
+    data = $(contents).find('body').text();
     switch (type) {
     case 'xml':
       data = parseXml(data);
